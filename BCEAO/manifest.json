@@ -1,0 +1,55 @@
+{
+  "name": "RégAlert — Suivi BCEAO",
+  "short_name": "RégAlert",
+  "description": "Système de suivi et de rappel des échéances réglementaires BCEAO",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#0f1d3a",
+  "orientation": "any",
+  "lang": "fr",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Urgents",
+      "short_name": "Urgents",
+      "description": "Voir les échéances urgentes",
+      "url": "/index.html#urgents",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tous les documents",
+      "short_name": "Documents",
+      "description": "Tableau complet",
+      "url": "/index.html#tous",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
